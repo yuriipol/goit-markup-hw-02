@@ -1,0 +1,84 @@
+:root {
+    --primary-text-color:#212121;
+    --title-text-color:#757575;
+    --accent-color:#2196F3;
+    --primary-white-color:#ffffff;
+}
+body {
+   background-color: var(--primary-white-color);
+   color: var(--primary-text-color);
+}
+/*убираем точки в списках*/
+.list {
+    list-style: none;
+}
+
+/*style header*/
+.logo {
+    color: var(--primary-text-color);
+    text-decoration: none;
+}
+
+/*style menu-nav*/
+.site-nav .link {
+    color: var(--primary-text-color);
+    text-decoration: none;
+}
+.site-nav .link.current {
+    color: var(--accent-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--accent-color);
+}
+/*Style mail&telefon*/
+.contacts.list .mail {
+    color: var(--primary-text-color);
+    text-decoration: none;
+}
+.contacts.list .tel {
+    color: var(--primary-text-color);
+    text-decoration: none;
+}
+.contacts.list .mail:hover,
+.contacts.list .mail:focus {
+    color: var(--accent-color);
+}
+.contacts.list .tel:hover,
+.contacts.list .tel:focus {
+    color: var(--accent-color);
+}
+/* Style main*/
+.hero-title {
+    color: #943636;
+}
+.button {
+    background-color: var(--accent-color);
+    color: var(--primary-white-color);
+    border-color: var(--accent-color);
+}
+.section-title {
+    color: var(--primary-text-color);
+}
+.title {
+    color: var(--primary-text-color);
+}
+p {
+    color: var(--title-text-color);
+}
+/*Style footer*/
+.adress.list .mail,
+.adress.list .tel {
+    color: var(--primary-text-color);
+    text-decoration: none;
+}
+.adress.list .mail:hover,
+.adress.list .mail:focus {
+    color: var(--accent-color)
+}
+.adress.list .tel:hover,
+.adress.list .tel:focus {
+    color: var(--accent-color)
+}
+/*Style porfolio*/
+
