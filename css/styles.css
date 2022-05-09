@@ -101,15 +101,38 @@ body {
     color: var(--title-text-color);
 
 }
-/*Style What are we doing*/
+/*Style What are we doing and Наша команда*/
 .section-title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
 }
-
+/*Style Our team */
+.team.list .name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19; 
+}
+.team.list .prof {
+    color: var(--title-text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+}
+ 
 /*Style footer*/
+.adress.list .adress-post {
+    color: var(--title-text-color);
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 1.71;
+
+}
+.adress.list .adress-post:hover,
+.adress.list .adress-post:focus {
+    color: var(--accent-color);
+}
 .adress.list .mail,
 .adress.list .tel {
     color: var(--title-text-color);
@@ -129,10 +152,12 @@ body {
     /*Style buttom*/
 .btn-filtr {
     font-family: inherit;
+    
 }
 .work.list .btn-filtr{
     background-color: var(--button-color);
     color: var(--primary-text-color);
+    cursor: pointer;
 }
 .work.list .current {
     background-color: var(--accent-color);
@@ -145,4 +170,16 @@ body {
     /*Style work list*/
 .work.list .link {
     text-decoration: none;
+}
+.work.list .work-name {
+    color: var(--primary-text-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+}
+.work.list .work-about {
+    color: var(--title-text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
 }
