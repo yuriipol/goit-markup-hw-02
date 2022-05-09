@@ -21,6 +21,11 @@ body {
 .link {
     text-decoration: none;
 }
+.section-title {
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+}
 /*style header*/
 .logo {
     color: var(--primary-text-color);
@@ -72,8 +77,11 @@ body {
     color: var(--accent-color);
 }
 /* Style main*/
+.hero {
+    background-color: #2F303A;
+}
 .hero-title {
-    background: #2F303A;
+    background: ;
     color: var(--primary-white-color);
     font-size: 44px;
     line-height: 1.36;
@@ -88,38 +96,26 @@ body {
     border-color: var(--accent-color);
 }
 /* Style Peculiarities*/
-.peculiarities-title {
-    font-size: 36px;
-    line-height: 1.17;
-    text-align: center;
-}
+
 .title {
+    font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
     color: var(--primary-text-color);
 }
 .discription {
-    font-weight: 400;
+  
     line-height: 1.71;
     color: var(--title-text-color);
 
 }
 
-/*Stle What are we doing */
-.works .works-title {
-    font-size: 36px;
-    line-height: 1.17;
-    text-align: center;
-}
+
 /*Style Our team */
 .team {
     background: #F5F4FA;
 }
-.team .team-title {
-    font-size: 36px;
-    line-height: 1.17;
-    text-align: center
-}
+
 .team.list .name {
     font-weight: 500;
     font-size: 16px;
@@ -134,6 +130,9 @@ body {
 /*Style footer*/
 .footer {
     background-color: #2F303A;
+}
+.adress {
+    font-style: normal;
 }
 .logo-footer {
     color: var(--primary-white-color);
@@ -168,7 +167,7 @@ body {
 .filtr {
     list-style: none;
 }
-.work-section .filtr-btn{
+ .filtr-btn {
     background-color: var(--button-color);
     color: var(--primary-text-color);
     font-family: inherit;
@@ -177,12 +176,10 @@ body {
     line-height: 1.63;
     cursor: pointer;
 }
- .work-section .current {
-    background-color: var(--accent-color); 
-    color: var(--primary-text-color); 
-} 
-.work-section .current:hover,
-.work-section .current:focus {
+
+.filtr .active:hover,
+.filtr .active:focus {
+    background-color: var(--accent-color);
     color: var(--primary-white-color);
 }
     /*Style work list*/
