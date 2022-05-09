@@ -9,6 +9,7 @@ body {
    background-color: var(--primary-white-color);
    color: var(--primary-text-color);
    font-family: Roboto, sans-serif;
+   font-size: 14px;
    letter-spacing: 0.03em;
 }
 
@@ -17,6 +18,9 @@ body {
     list-style: none;
 }
 
+.link {
+    text-decoration: none;
+}
 /*style header*/
 .logo {
     color: var(--primary-text-color);
@@ -33,9 +37,7 @@ body {
 /*style menu-nav*/
 .site-nav .link {
     color: var(--primary-text-color);
-    text-decoration: none;
     font-weight: 500;
-    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
 }
@@ -51,7 +53,6 @@ body {
     color: var(--title-text-color);
     text-decoration: none;
     font-weight: 500;
-    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
 }
@@ -59,7 +60,6 @@ body {
     color: var(--title-text-color);
     text-decoration: none;
     font-weight: 500;
-    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
 }
@@ -73,6 +73,8 @@ body {
 }
 /* Style main*/
 .hero-title {
+    background: #2F303A;
+    color: var(--primary-white-color);
     font-size: 44px;
     line-height: 1.36;
     text-align: center;
@@ -86,58 +88,71 @@ body {
     border-color: var(--accent-color);
 }
 /* Style Peculiarities*/
-
+.peculiarities-title {
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+}
 .title {
-    font-weight: 700;
-    font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
     color: var(--primary-text-color);
 }
-.title-text {
+.discription {
     font-weight: 400;
-    font-size: 14px;
     line-height: 1.71;
     color: var(--title-text-color);
 
 }
-/*Style What are we doing and Наша команда*/
-.section-title {
-    font-weight: 700;
+
+/*Stle What are we doing */
+.works .works-title {
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
 }
 /*Style Our team */
+.team {
+    background: #F5F4FA;
+}
+.team .team-title {
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center
+}
 .team.list .name {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19; 
 }
-.team.list .prof {
+.team.list .discription {
     color: var(--title-text-color);
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
 }
  
 /*Style footer*/
-.adress.list .adress-post {
-    color: var(--title-text-color);
+.footer {
+    background-color: #2F303A;
+}
+.logo-footer {
+    color: var(--primary-white-color);
     text-decoration: none;
-    font-size: 14px;
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+}
+.adress.list .adress-post {
+    color: var(--primary-white-color);
+    text-decoration: none;
     line-height: 1.71;
 
-}
-.adress.list .adress-post:hover,
-.adress.list .adress-post:focus {
-    color: var(--accent-color);
 }
 .adress.list .mail,
 .adress.list .tel {
     color: var(--title-text-color);
     text-decoration: none;
-    font-size: 14px;
     line-height: 1.71;
 }
 .adress.list .mail:hover,
@@ -150,34 +165,35 @@ body {
 }
 /*Style porfolio*/
     /*Style buttom*/
-.btn-filtr {
-    font-family: inherit;
-    
+.filtr {
+    list-style: none;
 }
-.work.list .btn-filtr{
+.work-section .filtr-btn{
     background-color: var(--button-color);
     color: var(--primary-text-color);
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
     cursor: pointer;
 }
-.work.list .current {
-    background-color: var(--accent-color);
-    color: var(--primary-text-color);
-}
-.work.list .current:hover,
-.work.list .current:focus {
+ .work-section .current {
+    background-color: var(--accent-color); 
+    color: var(--primary-text-color); 
+} 
+.work-section .current:hover,
+.work-section .current:focus {
     color: var(--primary-white-color);
 }
     /*Style work list*/
-.work.list .link {
-    text-decoration: none;
-}
-.work.list .work-name {
+
+.work.list .work-title {
     color: var(--primary-text-color);
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
 }
-.work.list .work-about {
+.work.list .work-dicript {
     color: var(--title-text-color);
     font-weight: 400;
     font-size: 16px;
