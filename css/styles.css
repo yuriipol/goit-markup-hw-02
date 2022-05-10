@@ -177,8 +177,8 @@ body {
     cursor: pointer;
 }
 
-.filtr .active:hover,
-.filtr .active:focus {
+.filtr-btn.active:hover,
+.filtr-btn.active:focus {
     background-color: var(--accent-color);
     color: var(--primary-white-color);
 }
