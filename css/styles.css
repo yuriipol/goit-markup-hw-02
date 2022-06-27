@@ -182,6 +182,10 @@ body {
     background-color: var(--accent-color);
     color: var(--primary-white-color);
 }
+.filtr .active:active {
+    background-color: var(--accent-color);
+    color: var(--primary-white-color);
+}
     /*Style work list*/
 
 .work.list .work-title {
